@@ -284,4 +284,4 @@ export interface ConfigureOptions {
 }
 
 export function input(file: string | Buffer | Buffer[] | Partial<Record<Letter, string | Buffer>>): PDFTK;
-export function configure(opts: ConfigureOptions): void;
+export function configure(opts: Partial<ConfigureOptions>): void;
